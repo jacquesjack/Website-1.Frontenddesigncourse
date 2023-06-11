@@ -114,8 +114,7 @@
             <div class="col-4 p-3">
                 <div class="mb-3 py-2">
                     <select class="form-select" aria-label="Default select example">
-                        <option selected>Services</option>
-                        <option value="1">Haircut</option>
+                        <option selected>Haircut</option>
                         <option value="2">Kid's cut</option>
                         <option value="3">Senior's cut</option>
                         <option value="4">Beard trim</option>
@@ -133,10 +132,9 @@
             <div class="col-4 p-3">
                 <div class="mb-3 py-2">
                     <select class="form-select" aria-label="Default select example">
-                        <option selected>Barbers</option>
+                        <option selected>Jeremy</option>
                         <option value="1">Diana</option>
                         <option value="2">Ashley</option>
-                        <option value="3">Jeremy</option>
                     </select>
                 </div>
             </div>
@@ -167,14 +165,13 @@
         <div class="row justify-content-evenly">
             <div class="col-4 p-3 text-center">
                 <div class="mb-3 py-2">   
-                    <input type="date"  min="2023-01-01" max="2024-12-31" style="background-color: rgb(108,117,125); color:white;">
+                    <input type="date"  min="2023-01-01" max="2024-12-31" style="background-color: white; ">
                 </div>
             </div>
             <div class="col-4 p-3">
                 <div class="mb-3 py-2">
                     <select class="form-select" aria-label="Default select example">
-                        <option selected>Choose a time</option>
-                        <option value="1">10:00-10:30</option>
+                        <option selected>10:00-10:30</option>
                         <option value="2">10:30-11:00</option>
                         <option value="3">11:00-12:30</option>
                         <option value="4">12:30-1:00</option>
@@ -200,36 +197,57 @@
             </div>
         </div>
     </div>
-    
-    
-    <div class="container ">
-        <div class="text-center">
-             <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Confirm booking
-          </button>
-        </div>
-       
-          
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">Booking Confirmed!</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    A confirmation email with details has been sent.
-                    <br>
-                    Thank you for booking!
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-              </div>
+
+    <div class="container text-light p-2">
+        <div class="row justify-content-evenly text-center">
+            <div class="col-4">
+                <h3>Would you like to donate your hair to cancer patients?</h3>
             </div>
-          </div>
+            <div class="col-4">
+                <h3>Confirm Your Booking</h3>
+            </div>
+        </div>
     </div>
+    
+    <div class="container py-4">
+        <div class="row justify-content-evenly">
+            <div class="col-4">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected> No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+            <div class="col-4">
+                            <div class="text-center">
+                                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Confirm
+                            </button>
+                            </div>
+                        
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Booking Confirmed!</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        A confirmation email with details has been sent.
+                                        <br>
+                                        Thank you for booking!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+            </div>
+        </div>
+    </div>
+   
     
     <div class="container p-5">
         <div class="row p-5">
